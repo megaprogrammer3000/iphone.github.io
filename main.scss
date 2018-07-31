@@ -1,0 +1,92 @@
+$back: #ffffff;
+$phon: url(img/phone.png) no-repeat center top / cover;
+$heightph: 188px;
+$widthph: 120px;
+
+
+
+
+
+
+
+
+body{
+	margin: 0 0 500px 0;
+	padding: 0;
+}
+
+.etomagazin{
+	background-color: #0d122b;
+	width: 100%;
+	height: 510px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.first{
+	height: 365px;
+	width: 270px;
+	border-radius: 18px;
+	background-color: $back;
+	font-size: 17px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.phone{
+	background: $phon;
+	height: $heightph;
+	width: $widthph;
+	margin: 30px 0;
+}
+
+.pay{
+	margin: 8px 0 20px 0;
+}
+
+.button{
+	color: $back;
+	border-radius: 22px;
+	padding: 12px 65px;
+	background-color: #ff0445;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	white-space: nowrap;
+	font-weight: bold;
+	}
+
+.pay2{
+	display: flex;
+	align-items: center;
+	color: #ff7130;
+	p{
+		color: #a6a8b2;
+		margin-right: 7px;
+	}
+}
+
+.phone1{
+	background: url(img/phoneNo.png) no-repeat center top / cover;
+	height: 200px;
+	width: 200px;
+	margin: 25px 0;
+}
+
+.pay1{
+	display: flex;
+	justify-content: space-between;
+	margin: 24px 0 25px 0;
+	width: 60px;
+	.palki{
+		background-color: #b7b9c4;
+		height: 2px;
+		width: 18px;
+	}
+}
+
+.but{
+	background-color: #d8d8d8;
+}

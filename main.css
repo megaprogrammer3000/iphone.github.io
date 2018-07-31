@@ -1,0 +1,88 @@
+body {
+  margin: 0 0 500px 0;
+  padding: 0; }
+
+.etomagazin {
+  background-color: #0d122b;
+  width: 100%;
+  height: 510px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.first {
+  height: 365px;
+  width: 270px;
+  border-radius: 18px;
+  background-color: #ffffff;
+  font-size: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.phone {
+  background: url(img/phone.png) no-repeat center top/cover;
+  height: 188px;
+  width: 120px;
+  margin: 30px 0; }
+
+.pay {
+  margin: 8px 0 20px 0; }
+
+.button {
+  color: #ffffff;
+  border-radius: 22px;
+  padding: 12px 65px;
+  background-color: #ff0445;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  white-space: nowrap;
+  font-weight: bold; }
+
+.pay2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ff7130; }
+  .pay2 p {
+    color: #a6a8b2;
+    margin-right: 7px; }
+
+.phone1 {
+  background: url(img/phoneNo.png) no-repeat center top/cover;
+  height: 200px;
+  width: 200px;
+  margin: 25px 0; }
+
+.pay1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 24px 0 25px 0;
+  width: 60px; }
+  .pay1 .palki {
+    background-color: #b7b9c4;
+    height: 2px;
+    width: 18px; }
+
+.but {
+  background-color: #d8d8d8; }
